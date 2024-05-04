@@ -19,11 +19,6 @@ export DP_POOL='http://192.168.1.200:8080'（代理池ip）
 export PERMIT_JS='luck'（允许走代理的关键字）
 ```
 
-代理api 
-
-```
-export DY_PROXY='api_url'（仅jd_wx_luckdraw支持）
-```
 
 3、自动填地址（报错就是变量不对，或者删除变量）
 
