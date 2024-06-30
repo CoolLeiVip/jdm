@@ -8,7 +8,7 @@ ql repo https://github.com/6dylan6/jdm.git "jd_" "" "^jd[^_]|USER|function|sendN
 1、自定义sign
 
 ```
-export JD_SIGN_KRAPI
+export JD_SIGN_API
 ```
 
 2、使用代理池
