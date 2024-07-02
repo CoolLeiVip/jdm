@@ -8,24 +8,21 @@ ql repo https://github.com/6dylan6/jdm.git "jd_" "" "^jd[^_]|USER|function|sendN
 1、自定义sign
 
 ```
-export JD_SIGN_API
+export JD_SIGN_API='url'
 ```
 
-2、使用代理池
-
-```
-export DP_POOL='http://192.168.1.200:8080'（代理池ip）
-
-export PERMIT_JS='luck'（允许走代理的关键字）
-```
-3、代理API
+2、代理API(3个全配置)
 
 ```
 export JD_COMMON_REQUEST_HTTP_DYNAMIC_PROXY_API='url'
+export RS_ISV_TOKEN_PROXY_API="url"
+export RS_PROXY_API="url"
+export RS_API_WHITELIST="jd_"
+
 ```
 
 
-4、自动填地址（报错就是变量不对，或者删除变量）
+3、自动填地址（报错就是变量不对，或者删除变量）
 
 
 ```
