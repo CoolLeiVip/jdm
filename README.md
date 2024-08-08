@@ -20,9 +20,16 @@ export RS_PROXY_API="url"
 export RS_API_WHITELIST="jd_"
 
 ```
+3、代理池模式
+
+```
+export RS_PROXY_TUNNRL="http://xxx"
+export RS_TUNNRL_WHITRLIST="jd_"
+export RS_ISV_TOKEN_PROXY_TUNNRL="http://xxx" 
+```
 
 
-3、自动填地址（报错就是变量不对，或者删除变量）
+4、自动填地址（报错就是变量不对，或者删除变量）
 
 
 ```
