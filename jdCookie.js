@@ -8,15 +8,15 @@ let CookieJDs = [
 ]
 let IP = '';
 // 判断环境变量里面是否有京东ck
-if (process.env.JD_COOKIE) {
-    if (process.env.JD_COOKIE.indexOf('&') > -1) {
-        CookieJDs = process.env.JD_COOKIE.split('&');
-    } else if (process.env.JD_COOKIE.indexOf('\n') > -1) {
-        CookieJDs = process.env.JD_COOKIE.split('\n');
-    } else {
-        CookieJDs = [process.env.JD_COOKIE];
-    }
-}
+//if (process.env.JD_COOKIE) {
+//    if (process.env.JD_COOKIE.indexOf('&') > -1) {
+//        CookieJDs = process.env.JD_COOKIE.split('&');
+//    } else if (process.env.JD_COOKIE.indexOf('\n') > -1) {
+//        CookieJDs = process.env.JD_COOKIE.split('\n');
+//    } else {
+//        CookieJDs = [process.env.JD_COOKIE];
+//    }
+//}
 if (JSON.stringify(process.env).indexOf('GITHUB') > -1) {
     console.log(`请勿使用github action运行此脚本,无论你是从你自己的私库还是其他哪里拉取的源代码，都会导致我被封号\n`);
     !(async () => {
